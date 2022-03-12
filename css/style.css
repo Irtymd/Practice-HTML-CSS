@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-size: 25px;
+
     font-family: sans-serif;
 }
 .container {
@@ -9,16 +9,26 @@
 }
  .menu__inner {
     display: flex;
-    margin: 25px 0;
+    justify-content: space-between;
+    margin: 20px 0;
     background-color: rgb(5, 5, 77);
-    padding: 30px 60px;
+    padding: 30px 0px;
 }
-.up {
-    color: orange;
+.tab {
+    padding: 0;
+    margin: auto;
 }
-.down {
+.el {
+    padding: 10px 40px;
+    text-transform: uppercase;
     color: white;
-    padding-left: 30px;
+    font-size: 15px;
+}
+.el-2 {
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    letter-spacing: 7px;
 }
 /*.nav {
     display: flex;
